@@ -105,7 +105,7 @@ public struct DismissInterceptorConfig {
     }
 }
 
-struct DismissInterceptorModifier: ViewModifier {
+private struct DismissInterceptorModifier: ViewModifier {
     
     @State private var currentDetent = PresentationDetent.large
     private let treshold: PresentationDetent
