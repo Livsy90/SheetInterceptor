@@ -1,5 +1,7 @@
 # SheetInterceptor
 
+<img src="https://github.com/Livsy90/SheetInterceptor/blob/main/SheetInterceptorDemo.gif">
+
 A SwiftUI sheet dismissal interceptor using `presentationDetents`. It prevents interactive sheet dismissal when the user drags to a configured “threshold” detent and lets you run custom logic (for example, showing a confirmation about unsaved changes).
 
 ## Features
