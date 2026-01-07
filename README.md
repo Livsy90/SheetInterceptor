@@ -33,7 +33,7 @@ https://github.com/Livsy90/SheetInterceptor.git
      @State private var isAlertPresented = false
 
      var body: some View {
-         VStack(spacing: 16) {
+         VStack {
              Button("Present Sheet") {
                  isSheetPresented = true
              }
